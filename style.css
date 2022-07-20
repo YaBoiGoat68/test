@@ -3,37 +3,42 @@ body {
     background: #ccc;
     font-family: 'Roboto', sans-serif;
 }
-.mytabs {
+/* button style code below*/
+
+.buttons {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 25px;
-}
-.mytabs input[type="radio"] {
-    display: none;
-}
-.mytabs label {
-    padding: 25px;
-    background: #e2e2e2;
-    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 125px;
+    overflow: hidden;
+    
+    
 }
 
-.mytabs .tab {
-    width: 100%;
-    padding: 20px;
-    background: #fff;
-    order: 1;
-    display: none;
-}
-.mytabs .tab h2 {
-    font-size: 3em;
+.button {
+    padding: 20px 170px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-right: 1px solid gray;
+    background-color: aqua;
+    font-family: 'Inter' , sans-serif;
+    
+    
+
+    
+    
 }
 
-.mytabs input[type='radio']:checked + label + .tab {
-    display: block;
+.button:last-child {
+    border-right: none;
 }
 
-.mytabs input[type="radio"]:checked + label {
-    background: #fff;
+.button:hover {
+    background: #dddddd;
 }
+
+/* button style code above*/
+
+
