@@ -16,10 +16,10 @@ body {
 }
 
 .button {
-    border-color: purple;
+    /*border-color: purple;*/
     cursor: pointer;
-    width: 125px;
-    height: 50px;
+    width: 19vw;
+    height: 5vh;
    /* border-top: none;
     border-bottom: none;
     /*background-color: aqua;*/
