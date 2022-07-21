@@ -3,6 +3,12 @@ body {
     background: #ccc;
     font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+    width: 100vw;
+    text-align: center;
+    }
+    
 /* button style code below*/
 
 .buttons {
