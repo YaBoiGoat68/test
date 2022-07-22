@@ -19,6 +19,7 @@ h1 {
 .button {
     
 }
+
 #homebutton {
     margin-right: 2.5px;
     margin-left: 2.5px;
@@ -69,12 +70,8 @@ h1 {
 }
 
 
-
-
-
-
 .button:hover {
-    background: #dddddd;
+    background: red;
 }
 
 /* button style code above*/
