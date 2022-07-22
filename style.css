@@ -23,7 +23,7 @@ h1 {
     margin-right: 2.5px;
     margin-left: 2.5px;
     cursor: pointer;
-    width: 19.5vw;
+    width: 17vw;
     height: 50px;
     border: 2px solid black;
     border-top-left-radius: 25px;
@@ -34,7 +34,7 @@ h1 {
     margin-right: 2.5px;
     margin-left: 2.5px;
     cursor: pointer;
-    width: 19.5vw;
+    width: 17vw;
     height: 50px;
     border: 2px solid black;
 }
@@ -43,7 +43,7 @@ h1 {
     margin-right: 2.5px;
     margin-left: 2.5px;
     cursor: pointer;
-    width: 18.2vw;
+    width: 17vw;
     height: 50px;
     border: 2px solid black;
 }
@@ -52,7 +52,7 @@ h1 {
     margin-right: 2.5px;
     margin-left: 2.5px;
     cursor: pointer;
-    width: 19.5vw;
+    width: 17vw;
     height: 50px;
     border: 2px solid black;
 }
@@ -61,7 +61,7 @@ h1 {
     margin-right: 2.5px;
     margin-left: 2.5px;
     cursor: pointer;
-    width: 19.5vw;
+    width: 17vw;
     height: 50px;
     border: 2px solid black;
     border-top-right-radius: 25px;
@@ -96,6 +96,9 @@ h1 {
     float: left;
     text-align: left;
     margin-right: 10px;
+}
+#natdawg {
+    
 }
  #p2 {
     padding: 1px;
