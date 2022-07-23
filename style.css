@@ -32,8 +32,6 @@ h1 {
 }
 
 #expbutton {
-    
-    
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -109,7 +107,8 @@ h1 {
     background-color: pink;
 }
 
-.h1[type="box"]{
+#box[type="h1"]{
     justify-content: center;
-    font-size: xx-large;
+    font-size: 59%;
+    color: blue;
 }
