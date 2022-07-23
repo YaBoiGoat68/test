@@ -21,8 +21,8 @@ h1 {
 }
 
 #homebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+    
+    margin-left: none;
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -32,8 +32,8 @@ h1 {
 }
 
 #expbutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+    
+    
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -41,8 +41,6 @@ h1 {
 }
 
 #mediabutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -50,8 +48,7 @@ h1 {
 }
 
 #sitebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -59,8 +56,7 @@ h1 {
 }
 
 #memebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+    
     cursor: pointer;
     width: 17vw;
     height: 50px;
@@ -102,3 +98,18 @@ h1 {
     color: blue;
  }
 /*picture formatting above*/
+
+.box{
+    
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    height: 20vh;
+    margin-bottom: none;
+    background-color: pink;
+}
+
+.h1[type="box"]{
+    justify-content: center;
+    font-size: xx-large;
+}
