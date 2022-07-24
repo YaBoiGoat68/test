@@ -88,27 +88,20 @@ h1 {
     text-align: left;
     margin-right: 10px;
 }
-#natdawg {
-    
-}
- #p2 {
-    padding: 1px;
-    color: blue;
- }
 /*picture formatting above*/
 
-.box{
-    
-    text-align: center;
+.Sitebox{
+    margin-top: 0;
+    left:-10px 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center;
-    width: 90vw;
+    align-items: center;
+    width: 100vw;
     height: 20vh;
-    margin-bottom: none;
     background-color: pink;
-}
-
-#box[type="h1"]{
-    justify-content: center;
-    font-size: 59%;
+    font-size: 7;
     color: blue;
 }
+
