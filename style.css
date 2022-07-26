@@ -2,17 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Merriweather';
 }
 
 body {
     background: #ccc;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather';
 }
-
-h1 {
-    width: 100vw;
-    text-align: center;
-    }
 
 /* button style code below*/
 .buttons {
@@ -22,7 +18,14 @@ h1 {
     justify-content: center;
     overflow: hidden;
 }
+
 .buttons h1{
+    width: 100%;
+    text-align: center;
+}
+
+.memes h2 {
+    text-align: center;
     width: 100%;
 }
 
@@ -83,6 +86,7 @@ h1 {
     float: right;
     
     margin-top: 10px;
+    margin-left: 10px;
     margin-right: 10px; 
     
     width: 340px;
@@ -94,7 +98,8 @@ h1 {
     float: left;
 
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     width: 254px;
     height: 304px;
@@ -116,14 +121,14 @@ h1 {
     font-size: 7;
     color: black;
 }
-
+/*
 .Sitebox h1 {
-     font-family: 'Times New Roman', Times, serif;
+    font-family: 'Merriweather';
 }
-
+*/
 .memep1 {
     margin: 10px;
-    color:
+    color: blue;
 }
 .memep2 {
     margin: 10px;
