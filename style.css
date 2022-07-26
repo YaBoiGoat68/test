@@ -22,7 +22,6 @@ h1 {
     justify-content: center;
     overflow: hidden;
 }
-
 .buttons h1{
     width: 100%;
 }
@@ -81,20 +80,25 @@ h1 {
 /*picture formatting below*/
 #cartmonkey {
     border: 2px solid black;
+    float: right;
+    
     margin-top: 10px;
-    margin-right: 20px; 
+    margin-right: 10px; 
+    
     width: 340px;
     height: 229px;
-    float: right;
+    
 }
 #oldmonk {
     border: 2px solid black;
-    width: 254px;
-    height: 284px;
     float: left;
-    text-align: left;
-    margin-right: 15px;
+
+    margin-top: 10px;
     margin-left: 20px;
+
+    width: 254px;
+    height: 304px;
+     
 }
 /*picture formatting above*/
 
@@ -116,3 +120,14 @@ h1 {
 .Sitebox h1 {
      font-family: 'Times New Roman', Times, serif;
 }
+
+.memep1 {
+    margin: 10px;
+    color:
+}
+.memep2 {
+    margin: 10px;
+    color: red;
+}
+
+
