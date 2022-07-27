@@ -30,47 +30,11 @@ body {
 }
 
 
-#homebutton {
-    
-    margin-left: none;
+.buttons {
     cursor: pointer;
-    width: 17vw;
+    width: 50vw;
     height: 50px;
     border: 2px solid black;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-#expbutton {
-    cursor: pointer;
-    width: 17vw;
-    height: 50px;
-    border: 2px solid black;
-}
-
-#mediabutton {
-    cursor: pointer;
-    width: 17vw;
-    height: 50px;
-    border: 2px solid black;
-}
-
-#sitebutton {
-
-    cursor: pointer;
-    width: 17vw;
-    height: 50px;
-    border: 2px solid black;
-}
-
-#memebutton {
-    
-    cursor: pointer;
-    width: 17vw;
-    height: 50px;
-    border: 2px solid black;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 
