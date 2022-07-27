@@ -1,80 +1,45 @@
-body {
-    background: #ccc;
-    font-family: 'Roboto', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
 }
 
-h1 {
-    width: 100vw;
-    text-align: center;
-    }
+body {
+    background: #ccc;
+    font-family: 'Merriweather';
+}
 
 /* button style code below*/
 .buttons {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
 
-.button {
-    
-}
-#homebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-    cursor: pointer;
-    width: 19.5vw;
-    height: 50px;
-    border: 2px solid black;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+.buttons h1{
+    width: 100%;
+    text-align: center;
 }
 
-#expbutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+.memes h2 {
+    text-align: center;
+    width: 100%;
+}
+
+
+.buttons {
     cursor: pointer;
-    width: 19.5vw;
+    width: 50vw;
     height: 50px;
     border: 2px solid black;
 }
-
-#mediabutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-    cursor: pointer;
-    width: 18.2vw;
-    height: 50px;
-    border: 2px solid black;
-}
-
-#sitebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-    cursor: pointer;
-    width: 19.5vw;
-    height: 50px;
-    border: 2px solid black;
-}
-
-#memebutton {
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-    cursor: pointer;
-    width: 19.5vw;
-    height: 50px;
-    border: 2px solid black;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-
-
-
-
 
 
 .button:hover {
-    background: #dddddd;
+    background: red;
 }
 
 /* button style code above*/
@@ -82,23 +47,56 @@ h1 {
 /*picture formatting below*/
 #cartmonkey {
     border: 2px solid black;
-    margin-right: 6px; 
-    width: 345px;
-    height: 225px;
     float: right;
+    
+    margin-top: 10px;
     margin-left: 10px;
+    margin-right: 10px; 
+    
+    width: 340px;
+    height: 229px;
+    
 }
 #oldmonk {
     border: 2px solid black;
-    padding: 0px;
-    width: 250px;
-    height: 280px;
     float: left;
-    text-align: left;
+
+    margin-top: 10px;
+    margin-left: 10px;
     margin-right: 10px;
+
+    width: 254px;
+    height: 304px;
+     
 }
- #p2 {
-    padding: 1px;
-    color: blue;
- }
 /*picture formatting above*/
+
+.Sitebox{
+    margin-top: 0;
+    left:-10px 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 15vh;
+    background-color: pink;
+    font-size: 7;
+    color: black;
+}
+/*
+.Sitebox h1 {
+    font-family: 'Merriweather';
+}
+*/
+.memep1 {
+    margin: 10px;
+    color: blue;
+}
+.memep2 {
+    margin: 10px;
+    color: red;
+}
+
+
